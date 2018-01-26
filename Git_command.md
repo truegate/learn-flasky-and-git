@@ -6,6 +6,7 @@
 #### Command
 * git init
 * git reset --hard commit_id
+    * 版本回溯
     * commit_id 可以通过 `git log` `git reflog` 查看
     * 可以用HEAD替换commit_id，`HEAD^` 表示上一个，具体用法有 `HEAD^^` `HEAD~100`
 * git log --pretty=oneline
@@ -13,4 +14,10 @@
 * git reflog
 * git commit -m ""
 * git add XXX
-* git diff
+* git reset HEAD <file>
+    * 撤销暂存区提交的文件，放回工作区
+* git checkout -- <file>
+    * 用版本库文件替换工作区文件
+* git checkout <branch>
+* git rm <file>
+    * 从暂存区删除文件
