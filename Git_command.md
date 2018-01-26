@@ -21,3 +21,5 @@
 * git checkout <branch>
 * git rm <file>
     * 从暂存区删除文件
+* git merge dev
+    * 分支合并
