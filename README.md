@@ -6,6 +6,7 @@ Fellowed < Flask Web Development: Developing Web Applications with Python> by Mi
 Event|Date
 :-------:|:-------:
 start|2018-01-26
+learn git|2018-01-26
 
 ### Motto
 Perseverance
