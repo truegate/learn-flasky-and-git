@@ -19,5 +19,8 @@
 * git checkout -- <file>
     * 用版本库文件替换工作区文件
 * git checkout <branch>
+* git checkout -b <branch>
+    * 创建并切换到分支
 * git rm <file>
     * 从暂存区删除文件
+* git push origin master
