@@ -18,10 +18,13 @@
     * 撤销暂存区提交的文件，放回工作区
 * git checkout -- <file>
     * 用版本库文件替换工作区文件
+* git rm <file>
+    * 从暂存区删除文件
 * git checkout <branch>
 * git checkout -b <branch>
     * 创建并切换到分支
-* git rm <file>
-    * 从暂存区删除文件
+    * 相当于 git branch <branch> && git checkout <branch>
 * git merge dev
     * 分支合并
+* git rm <file>
+    * 从暂存区删除文件
