@@ -12,4 +12,4 @@ learn git|2018-01-26
 Perseverance
 
 ### Feature
-This line is added in master
+This line is added by merge master with feature1
