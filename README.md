@@ -13,3 +13,5 @@ Perseverance
 
 ### Feature
 This line is added by merge master with feature1
+
+### --no-ff
