@@ -12,6 +12,6 @@ learn git|2018-01-26
 Perseverance
 
 ### Feature
-This line is added by merge master with feature1
+This line is added by merge master
 
 ### --no-ff
