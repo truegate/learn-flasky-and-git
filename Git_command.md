@@ -1,9 +1,9 @@
-### Git 学习笔记
+## Git 学习笔记
 > Fellow [This](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 ![git](https://cdn.liaoxuefeng.com/cdn/files/attachments/0013848605496402772ffdb6ab448deb7eef7baa124171b000/0)
 
-#### Command
+### Command
 * git init
 * git reset --hard commit_id
     * 版本回溯
@@ -29,3 +29,12 @@
     * 分支合并
 * git rm <file>
     * 从暂存区删除文件
+
+### Example
+
+#### Bug 修复
+> 手头工作分支任务还没做完，需要对主线进行Debug的情况。
+1. 先在手头的分支 `git stash` 工作现场；
+2. 再 `git checkout master` 后，`git checkout -b issue-X` 创建 Debug 分支；
+3. Debug 完成后，`git checkout master` 回到主分支，`git merge --no-f -m "repair issue-X"` 进行合并，`git branch -d issue-X` 删除Debug分支；
+4. 回到之前工作分支后，`git stash pop` 取回保存过的工作现场。
