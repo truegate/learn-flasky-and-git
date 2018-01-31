@@ -10,6 +10,7 @@
     * commit_id 可以通过 `git log` `git reflog` 查看
     * 可以用HEAD替换commit_id，`HEAD^` 表示上一个，具体用法有 `HEAD^^` `HEAD~100`
 * git log --pretty=oneline
+* git log --graph --pretty=oneline --abbrev-commit
 * git status
 * git reflog
 * git commit -m ""
